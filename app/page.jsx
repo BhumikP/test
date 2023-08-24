@@ -1,15 +1,15 @@
 import Feed from "@components/Feed";
 
 const Home = () => (
-  <section className='w-full flex-center flex-col'>
+  <section className='w-full flex-center flex-col font-cursive'>
     <h1 className='head_text text-center'>
-      Discover & Share
+      "Writing Through Time"
       <br className='max-md:hidden' />
-      <span className='orange_gradient text-center'> AI-Powered Prompts</span>
+      <span className='blue_gradient text-center'> Create Your Blog Post and Share </span>
     </h1>
     <p className='desc text-center'>
-      Promptopia is an open-source AI prompting tool for modern world to
-      discover, create and share creative prompts
+        WritelyHub App is an open-source tool for modern world to
+      discover, create and share creative blog post
     </p>
 
     <Feed />
